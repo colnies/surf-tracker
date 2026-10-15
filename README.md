@@ -27,7 +27,7 @@ during the run to re-click when it asks. Read [What to expect](#what-to-expect) 
 ## Install
 
 ```powershell
-git clone https://github.com/<you>/surf-tracker
+git clone https://github.com/colnies/surf-tracker
 cd surf-tracker
 py -3.12 -m venv .venv            # Linux/macOS: python3.12 -m venv .venv
 .\.venv\Scripts\activate          # Linux/macOS: source .venv/bin/activate
