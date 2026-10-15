@@ -1,0 +1,23 @@
+# virtualenv / python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# run outputs (anything the script writes)
+run*/
+surf_out/
+*.log
+
+# recordings: never commit Surfline footage
+*.mp4
+*.mkv
+*.mov
+!docs/*.gif
+
+# editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
